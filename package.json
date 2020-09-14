@@ -9,16 +9,8 @@
     "build":"cd bookclient && yarn build",
     "heroku-postbuild":"yarn install-client && yarn build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Benjamin274/Book-Rentals.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Benjamin274/Book-Rentals/issues"
-  },
-  "homepage": "https://github.com/Benjamin274/Book-Rentals#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
