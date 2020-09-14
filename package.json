@@ -4,10 +4,7 @@
   "description": "nodejs,express js ,vue js ,book pdf downloader",
   "main": "app.js",
   "scripts": {
-    "start": "npm  install && nodemon app.js ",
-    "install-client": "cd bookclient && yarn install",
-    "build": "cd bookclient && yarn build",
-    "heroku-postbuild": "npm run  install-client && npm run  build"
+    "start": "nodemon app.js "
   },
   "author": "",
   "license": "ISC",
